@@ -34,7 +34,7 @@ code_word_wrap: false
 # copy settings
 # copyright: Add the copyright information after copied content (複製的內容後面加上版權信息)
 copy:
-  enable: true
+  enable: true # true 開啟 / false 禁止
   copyright:
     enable: false
     limit_count: 50
@@ -88,16 +88,16 @@ avatar:
   img: https://imgur.qsim.top/1WPQNgv_d.webp?maxwidth=1520&fidelity=grand
   effect: false
 
-# Disable all banner imagefalse
-disable_top_img: https://imgur.qsim.top/aBatmEj.png
+# Disable all banner imagefalse 禁用所有橫幅圖像假
+disable_top_img: false
 
 # The banner image of home page
 index_img: https://imgur.qsim.top/aBatmEj.png
 
-# If the banner of page not setting, it will show the top_img
-default_top_img: https://imgur.qsim.top/aBatmEj.png
+# If the banner of page not setting, it will show the top_img 如果頁面的banner沒有設置，會顯示top_img
+default_top_img: 
 
-# The banner image of archive page
+# The banner image of archive page 存檔頁面的橫幅圖片
 archive_img: https://i1.wp.com/i.loli.net/2020/04/23/vbgQntoPRidkwI8.jpg
 
 # If the banner of tag page not setting, it will show the top_img
