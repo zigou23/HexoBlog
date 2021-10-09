@@ -81,21 +81,21 @@ katex:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: https://i1.wp.com/goindex.zigou.workers.dev/0:/photo/zigousphoto/photos/zigouhead-1.jpg
+favicon: https://imgur.qsim.top/1WPQNgv_d.webp?maxwidth=1520&fidelity=grand
 
 # Avatar (頭像)
 avatar:
-  img: https://i1.wp.com/goindex.zigou.workers.dev/0:/photo/zigousphoto/photos/zigouhead-1.jpg
+  img: https://imgur.qsim.top/1WPQNgv_d.webp?maxwidth=1520&fidelity=grand
   effect: false
 
 # Disable all banner imagefalse
-disable_top_img: https://i1.wp.com/goindex.zigou.workers.dev/0:/photo/zigousphoto/photos/bilitree-1.jpg
+disable_top_img: https://imgur.qsim.top/aBatmEj.png
 
 # The banner image of home page
-index_img: https://i1.wp.com/goindex.zigou.workers.dev/0:/photo/zigousphoto/photos/bilitree-1.jpg
+index_img: https://imgur.qsim.top/aBatmEj.png
 
 # If the banner of page not setting, it will show the top_img
-default_top_img: https://i1.wp.com/goindex.zigou.workers.dev/0:/photo/zigousphoto/photos/bilitree-1.jpg
+default_top_img: https://imgur.qsim.top/aBatmEj.png
 
 # The banner image of archive page
 archive_img: https://i1.wp.com/i.loli.net/2020/04/23/vbgQntoPRidkwI8.jpg
