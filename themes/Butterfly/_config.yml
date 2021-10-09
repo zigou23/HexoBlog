@@ -3,6 +3,14 @@
 # --------------------------------------
 
 menu:
+  Home: / || fa fa-home
+  Archives: /archives/ || fa fa-archive
+  Tags: /tags/ || fa fa-tags
+  Categories: /categories/ || fa fa-folder-open
+  Link: /link/ || fa fa-link
+  About: /about/ || fa fa-heart
+  More||fa fa-list:
+    - error || /404.html || fa fa-film
   # Home: / || fas fa-home
   # Archives: /archives/ || fas fa-archive
   # Tags: /tags/ || fas fa-tags
@@ -16,7 +24,7 @@ menu:
 # Code Blocks (代碼相關)
 # --------------------------------------
 
-highlight_theme: light #  darker / pale night / light / ocean / mac / mac light / false
+highlight_theme: mac light #  darker / pale night / light / ocean / mac / mac light / false
 highlight_copy: true # copy button
 highlight_lang: true # show the code language
 highlight_shrink: false # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
@@ -680,13 +688,13 @@ change_font_size: false
 translate:
   enable: false
   # The text of a button
-  default: 繁
+  default: 簡
   # the language of website (1 - Traditional Chinese/ 2 - Simplified Chinese）
   defaultEncoding: 2
   # Time delay
   translateDelay: 0
   # The text of the button when the language is Simplified Chinese
-  msgToTraditionalChinese: '繁'
+  msgToTraditionalChinese: '簡'
   # The text of the button when the language is Traditional Chinese
   msgToSimplifiedChinese: '簡'
 
