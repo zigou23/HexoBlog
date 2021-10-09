@@ -3,17 +3,28 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: zigou's Blog
 subtitle:
 description:
 keywords:
-author: John Doe
-language:
+author: zi Gou
+language: zh-CN
 timezone:
+# #主题配置
+# # 头像
+# aomori_logo: /images/avatar.jpg
+# # 站点标题打字动画
+# aomori_logo_typed_animated: true
+# # 侧边栏菜单
+# aomori_menu:
+#   Home: /
+#   Archives: /archives
+# # 知识共享使用许可
+# aomori_copyright: true
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://zigou.vercel.app/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -73,7 +84,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: gridea-theme-pure-master
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
