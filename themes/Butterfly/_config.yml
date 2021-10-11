@@ -81,18 +81,18 @@ katex:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: https://imgur.qsim.top/1WPQNgv_d.webp?maxwidth=1520&fidelity=grand
+favicon: https://cdn.jsdelivr.net/gh/zigou23/zigou23@master/logomin.svg
 
 # Avatar (頭像)
 avatar:
-  img: https://imgur.qsim.top/1WPQNgv_d.webp?maxwidth=1520&fidelity=grand
+  img: https://i1.wp.com/imgur.qsim.top/1WPQNgv_d.webp?maxwidth=1520&fidelity=grand
   effect: false
 
 # Disable all banner imagefalse 禁用所有橫幅圖像假
 disable_top_img: false
 
 # The banner image of home page
-index_img: https://imgur.qsim.top/aBatmEj.png
+index_img: https://i1.wp.com/imgur.qsim.top/aBatmEj.png
 
 # If the banner of page not setting, it will show the top_img 如果頁面的banner沒有設置，會顯示top_img
 default_top_img: 
