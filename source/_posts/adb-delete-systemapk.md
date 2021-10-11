@@ -1,7 +1,7 @@
 ---
 title: 免root ADB命令卸载系统预装应用
 date: 2020-07-24 10:45:01
-tags:"adb" "debug" "android" "system" "cmd" "卸载" "系统应用"
+tags:"adb" "debug" "android" "system" "cmd"
 categories: 
 - android
 ---
