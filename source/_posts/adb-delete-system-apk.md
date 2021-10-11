@@ -1,8 +1,12 @@
 ---
 title: 免root ADB命令卸载系统预装应用
 date: 2020-07-24 10:45:01
+categories: 
+- android
 tags:
-
+- android
+- adb
+- system
 ---
 
 # 免root ADB命令卸载/停用系统预装应用
