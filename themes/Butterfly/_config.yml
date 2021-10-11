@@ -8,7 +8,7 @@ menu:
   Tags: /tags/ || fa fa-tags
   Categories: /categories/ || fa fa-folder-open
   Link: /link/ || fa fa-link
-  talk: /talk/ 
+  talk: /talk/ || fa fa-tags
   About: /about/ || fa fa-heart
   More||fa fa-list:
     - error || /404.html || fa fa-film
