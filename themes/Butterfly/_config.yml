@@ -321,14 +321,14 @@ waline:
   bg: # waline background
   visitor: false
   option:
-  requiredMeta: [ 'nick', 'mail','placeholder' ],
+  requiredMeta: [ 'nick', 'mail','placeholder' ]
   emoji: [
       'https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo',
       'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/alus',
       'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/bilibili',
       'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/tw-emoji',
       'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/qq',
-    ],
+    ]
 # utterances
 # https://utteranc.es/
 utterances:
