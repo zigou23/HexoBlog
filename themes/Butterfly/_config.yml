@@ -262,13 +262,13 @@ addtoany:
 comments:
   # Up to two comments system, the first will be shown as default
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo
+  Choose: Waline
   use:
-  # - Valine
-  # - Disqus
+   - Waline
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
   # If you set it to true, the comment count will be invalid
-  lazyload: false
+  lazyload: true
   count: false # Display comment count in post's top_img
   card_post_count: false # Display comment count in Home Page
 
@@ -315,13 +315,20 @@ valine:
 # waline - A simple comment system with backend support fork from Valine
 # https://waline.js.org/
 waline:
-  serverURL: # Waline server address url
+  serverURL: https://comment-tau.vercel.app/ # Waline server address url
   avatar: monsterid # gravatar style https://zh-tw.gravatar.com/site/implement/images/#default-image
   avatarCDN: # Gravatar CDN baseURL
   bg: # waline background
   visitor: false
   option:
-
+  requiredMeta: [ 'nick', 'mail','placeholder' ],
+  emoji: [
+      'https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo',
+      'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/alus',
+      'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/bilibili',
+      'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/tw-emoji',
+      'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/qq',
+    ],
 # utterances
 # https://utteranc.es/
 utterances:
