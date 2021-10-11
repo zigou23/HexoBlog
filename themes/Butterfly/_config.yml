@@ -256,6 +256,21 @@ addtoany:
   enable: false
   item: facebook,twitter,wechat,sina_weibo,facebook_messenger,email,copy_link
 
+
+# HexoPlusPlus Talk
+# see https://hexoplusplus.js.org https://hexoplusplus.js.org/use/theme.html
+hpptalk:
+  enable: true 
+  domain: hexopp.zigou.workers.dev
+  path: talk
+  limit: 20
+  start: 0
+  js: https://cdn.jsdelivr.net/gh/HexoPlusPlus/HexoPlusPlus@latest/talk_user.js
+  css: https://cdn.jsdelivr.net/gh/HexoPlusPlus/HexoPlusPlus@latest/talk.css
+  option:
+  front_matter:
+  
+  
 # Comments System
 # --------------------------------------
 
