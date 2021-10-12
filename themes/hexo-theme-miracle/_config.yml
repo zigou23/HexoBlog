@@ -244,12 +244,7 @@ post:
         # 代码高亮
         # Code highlight
         highlight: true
-            enable: true # 启用高亮
-            line_number: false
-            auto_detect: false
-            tab_replace: ''
-            wrap: false # 推荐 False
-            hljs: true # 必须为 True
+        
     
     # 文章目录
     # Article Directory
