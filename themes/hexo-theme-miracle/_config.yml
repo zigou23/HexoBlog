@@ -151,7 +151,7 @@ custom:
 index:
     # 名称
     # Name
-    name: "Theme Miracle"
+    name: "zigou" # 博主 / 站点的名称
     # Slogan
     slogan: 一款简洁的单栏 Hexo 主题
 
@@ -236,7 +236,7 @@ post:
 
     # 评论插件
     # Comment plugin
-    comment: true
+    comment: false
 
     # 代码显示设置
     # Code display setting
@@ -322,7 +322,7 @@ comment:
     # 指定的插件，需要同时设置对应插件的必要参数
     # The specified plugin needs to set the necessary parameters at the same time
     # Options: gitalk | valine | waline | twikoo
-    type: # waline
+    type: waline
 
     # Gitalk
     # See: https://github.com/gitalk/gitalk#options
