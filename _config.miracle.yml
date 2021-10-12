@@ -13,11 +13,11 @@ global:
 
     # 用于浏览器标签的图标
     # Icon for browser tab
-    favicon:
+    favicon: 
 
     # 用于苹果设备的图标
     # Icon for Apple touch
-    apple_touch_icon:
+    apple_touch_icon: 
 
     # 强制所有链接升级为 HTTPS（适用于图片等资源出现 HTTP 混入报错）
     # Force all links to be HTTPS (applicable to HTTP mixed error)
@@ -151,14 +151,14 @@ custom:
 index:
     # 名称
     # Name
-    name: "Theme Miracle"
+    name: "zigou" # 博主 / 站点的名称
     # Slogan
     slogan: 一款简洁的单栏 Hexo 主题
 
     # 文章通过 `sticky` 排序
     # The posts are sorted by `sticky`
     post_sticky:
-        enable: true
+        enable: false
         text: "[TOP]"
 
     # 文章卡片是否显示相关信息（时间、分类、标签）
@@ -177,13 +177,13 @@ navbar:
     # 导航栏菜单，可自行增减.
     # Navigation bar menu.
     menu:
-        # 首页: /
-        # 归档: /archives/
-        # 分类: /categories/
-        # 标签: /tags/
-        # 说说: /talk/
-        # 友链: /links/
-        # 关于: /about/
+        首页: /
+        归档: /archives/
+        分类: /categories/
+        标签: /tags/
+        说说: /talk/
+        友链: /links/
+        关于: /about/
         # ...
 
 
@@ -211,7 +211,7 @@ post:
     # 字数统计
     # Word count
     wordcount:
-        enable: true
+        enable: false
 
         # 所显示的文本，{} 是数字的占位符（必须包含）
         # Displayed text, {} is a placeholder for numbers (must be included)
@@ -236,7 +236,7 @@ post:
 
     # 评论插件
     # Comment plugin
-    comment: true
+    comment: false
 
     # 代码显示设置
     # Code display setting
@@ -244,6 +244,7 @@ post:
         # 代码高亮
         # Code highlight
         highlight: true
+        
     
     # 文章目录
     # Article Directory
