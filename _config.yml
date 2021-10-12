@@ -9,6 +9,7 @@ description:
 keywords:
 author: zi Gou
 language: zh-CN
+lang: zh-CN # 可选项，用与匹配语言文件
 timezone:
 # #主题配置
 # # 头像
