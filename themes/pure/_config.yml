@@ -11,6 +11,8 @@ menus:
     link: /tags/
   - name: 友链
     link: /friends/
+  - name: 说说
+    link: /talk/
     # 代码高亮设置 请勿开启 line_number 和 wrap
 highlight:
   enable: true
