@@ -11,7 +11,17 @@ menus:
     link: /tags/
   - name: 友链
     link: /friends/
-highlight_theme: mac light
+    # 代码高亮设置 请勿开启 line_number 和 wrap
+highlight:
+  enable: true
+  auto_detect: true
+  line_number: false  # This value must be `false`
+  wrap: false         # This value must be `false`
+  tab_replace: '    ' # 4 spaces
+  hljs: true          # This value must be `true`
+prismjs:
+  enable: false
+
 disqus:
   enable: false
   shortname: 'Your shortname here'
