@@ -13,11 +13,11 @@ global:
 
     # 用于浏览器标签的图标
     # Icon for browser tab
-    favicon:
+    favicon: 
 
     # 用于苹果设备的图标
     # Icon for Apple touch
-    apple_touch_icon:
+    apple_touch_icon: 
 
     # 强制所有链接升级为 HTTPS（适用于图片等资源出现 HTTP 混入报错）
     # Force all links to be HTTPS (applicable to HTTP mixed error)
@@ -39,7 +39,7 @@ global:
 
     # 每次生成页面后，检测主题是否为最新版本
     # Every time the page is generated, detect whether the theme is the latest version
-    version_check: true
+    version_check: false
 
     # 网页访问统计
     # Analysis of website visitors
@@ -95,7 +95,7 @@ global:
 # 搜索
 # Search
 search:
-    enable: true
+    enable: false
     # 搜索索引文件的路径，可以是相对路径或外站的绝对路径
     # Path for search index file, it can be a relative path or an absolute path.
     path: /search.json
@@ -177,8 +177,8 @@ navbar:
     # 导航栏菜单，可自行增减.
     # Navigation bar menu.
     menu:
-        # 首页: /
-        # 归档: /archives/
+        首页: /
+        归档: /archives/
         # 分类: /categories/
         # 标签: /tags/
         # 说说: /talk/
@@ -236,7 +236,7 @@ post:
 
     # 评论插件
     # Comment plugin
-    comment: true
+    comment: false
 
     # 代码显示设置
     # Code display setting
@@ -299,7 +299,7 @@ post:
     # 文末打赏
     # Donate
     donate:
-        enable: true
+        enable: false
         # 打赏文字
         text: "喜欢这篇文章？为什么不考虑打赏一下作者呢？"
         # 方式
