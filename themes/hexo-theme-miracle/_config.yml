@@ -158,7 +158,7 @@ index:
     # 文章通过 `sticky` 排序
     # The posts are sorted by `sticky`
     post_sticky:
-        enable: true
+        enable: false
         text: "[TOP]"
 
     # 文章卡片是否显示相关信息（时间、分类、标签）
@@ -177,13 +177,13 @@ navbar:
     # 导航栏菜单，可自行增减.
     # Navigation bar menu.
     menu:
-        # 首页: /
-        # 归档: /archives/
-        # 分类: /categories/
-        # 标签: /tags/
-        # 说说: /talk/
-        # 友链: /links/
-        # 关于: /about/
+        首页: /
+        归档: /archives/
+        分类: /categories/
+        标签: /tags/
+        说说: /talk/
+        友链: /links/
+        关于: /about/
         # ...
 
 
@@ -211,7 +211,7 @@ post:
     # 字数统计
     # Word count
     wordcount:
-        enable: true
+        enable: false
 
         # 所显示的文本，{} 是数字的占位符（必须包含）
         # Displayed text, {} is a placeholder for numbers (must be included)
