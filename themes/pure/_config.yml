@@ -11,6 +11,7 @@ menus:
     link: /tags/
   - name: 友链
     link: /friends/
+highlight_theme: mac light
 disqus:
   enable: false
   shortname: 'Your shortname here'
