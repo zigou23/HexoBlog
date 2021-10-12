@@ -13,11 +13,11 @@ global:
 
     # 用于浏览器标签的图标
     # Icon for browser tab
-    favicon: https://cdn.jsdelivr.net/gh/zigou23/zigou23@master/logo/logomin.svg
+    favicon: 
 
     # 用于苹果设备的图标
     # Icon for Apple touch
-    apple_touch_icon: https://cdn.jsdelivr.net/gh/zigou23/zigou23@master/logo/logomin.svg
+    apple_touch_icon: 
 
     # 强制所有链接升级为 HTTPS（适用于图片等资源出现 HTTP 混入报错）
     # Force all links to be HTTPS (applicable to HTTP mixed error)
