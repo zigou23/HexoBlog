@@ -121,7 +121,7 @@ category_per_img:
 
 cover:
   # display the cover or not (是否顯示文章封面)
-  index_enable: true
+  index_enable: false
   aside_enable: true
   archives_enable: true
   # the position of cover in home page (封面顯示的位置)
@@ -229,7 +229,7 @@ anchor: false
 
 # Displays outdated notice for a post (文章過期提醒)
 noticeOutdate:
-  enable: false
+  enable: true
   style: flat # style: simple/flat
   limit_day: 500 # When will it be shown
   position: top # position: top/bottom
