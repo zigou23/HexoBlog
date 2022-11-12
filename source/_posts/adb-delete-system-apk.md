@@ -81,6 +81,9 @@ tags:
 
   ```
 (adb shell) pm uninstall -k --user 0 应用包名(卸载)
+例如删除小米弹窗广告程序
+pm uninstall --user 0 com.miui.hybrid
+pm uninstall --user 0 com.miui.systemAdSolution
   ```
 > `-k` 表示保存数据，如不需要，可去掉 `-k`。
 > `--user` 指定用户 `id`，Android 系统支持多个用户，默认用户只有一个，`id=0`。
