@@ -11,6 +11,8 @@ cover:
 
 轻薄本gpu一般不怎么能使用硬件加速，关闭它就好了。
 
+参考 [issues](https://github.com/desktop/desktop/issues/10488) 
+
 具体操作为打开cmd，输入
 
 ```powershell
