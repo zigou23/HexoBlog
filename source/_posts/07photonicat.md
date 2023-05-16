@@ -14,7 +14,7 @@ tags:
 
 2. 下载刷机辅助工具 [MiniLoaderAll.bin](https://dl.photonicat.com/images/MiniLoaderAll.bin)
 
-3. 下载你所需的安装包
+3. 去 https://dl.photonicat.com/images/beta/ 下载你所需的安装包
 
    ![image-202305161](https://i1.wp.com/pbs.twimg.com/media/FwPjiZwacAE5k0U.png)
 
