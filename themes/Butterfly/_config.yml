@@ -331,7 +331,7 @@ valine:
 # waline - A simple comment system with backend support fork from Valine
 # https://waline.js.org/
 waline:
-  serverURL: https://comment-tau.vercel.app/ # Waline server address url
+  serverURL: https://comment.qsim.top/ # Waline server address url
   avatar: monsterid # gravatar style https://zh-tw.gravatar.com/site/implement/images/#default-image
   avatarCDN: # Gravatar CDN baseURL
   bg: # waline background
@@ -339,11 +339,11 @@ waline:
   option:
   requiredMeta: [ 'nick', 'mail','placeholder' ]
   emoji: [
-      'https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo',
-      'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/alus',
-      'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/bilibili',
-      'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/tw-emoji',
-      'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/qq',
+      'https://ik.imagekit.io/acf/raw/walinejs/emojis/weibo',
+      'https://ik.imagekit.io/acf/raw/walinejs/emojis@1.0.0/alus',
+      'https://ik.imagekit.io/acf/raw/walinejs/emojis@1.0.0/bilibili',
+      'https://ik.imagekit.io/acf/raw/walinejs/emojis@1.0.0/tw-emoji',
+      'https://ik.imagekit.io/acf/raw/walinejs/emojis@1.0.0/qq',
     ]
 # utterances
 # https://utteranc.es/
