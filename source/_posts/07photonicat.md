@@ -21,10 +21,10 @@ tags:
 4. 解压并打开 [RKDevTool_Release_v2.86.zip](https://dl.photonicat.com/tools/RKDevTool_Release_v2.86.zip)
 
 5. 连接设备
-6. 擦除flash
-   ![image-202305162](https://i1.wp.com/pbs.twimg.com/media/FwPjiZqaYAAkm7N.png)
+6. 擦除flash（**线刷debain时必需先擦除flash**，其他可以不需要，直接看最后一张图![image-202305171](https://i1.wp.com/pbs.twimg.com/media/FwUNISSaQAA6pPJ.png)
+   **旧版擦除方法**![image-202305162](https://i1.wp.com/pbs.twimg.com/media/FwPjiZqaYAAkm7N.png)
 
-7. 下载镜像，刷入![image-202305163](https://i1.wp.com/pbs.twimg.com/media/FwPjiZvakAYCfmX.png)
+7. 点击上图中的 `执行` 即可刷入。![image-202305163](https://i1.wp.com/pbs.twimg.com/media/FwPjiZvakAYCfmX.png)
 
 
 
