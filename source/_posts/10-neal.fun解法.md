@@ -17,7 +17,9 @@ tags:
 >
 > Rule 13: 🌕🌖🌗🌘🌑🌒🌓🌔
 >
-> Rule 14: [AllCountry-lowercase](https://d.qsim.top/azzx/file/AllCountry-webk-lowercase.txt?preview) from webk(Not recommended for use). You can view all countries from [here](https://d.qsim.top/azzx/file/AllCountry-from-Tg-webk.txt?preview). (默认链接在线预览，自行下载)
+> Rule 14: [AllCountry-lowercase](https://d.qsim.top/azzx/file/AllCountry-webk-lowercase.txt?preview) from webk(Not recommended for use). You can view all countries from [here](https://d.qsim.top/azzx/file/AllCountry-from-Tg-webk.txt?preview).[^1] (默认链接在线预览，自行下载)
+>
+> 
 >
 > Rule 15: 0/4/8 & multiples
 
@@ -82,3 +84,5 @@ tags:
 ![result](https://i1.wp.com/imgur.qsim.top/M3FbovE.jpeg)
 
 不搞了不搞了，归档（
+
+[^1]:The sources are all from [webk](https://webk.telegram.org/), and I am not responsible for them.
