@@ -72,6 +72,16 @@ tags:
   确认密码时粘贴输0过关
 
 
-*另附 [我的结果] (https://t.me/TestFlightCN/18853?comment=4477499) ，其中包含除了最后确认密码以外的所有规则
+*另附 [我的结果] (如下) ，其中包含除了最后确认密码以外的所有规则
 ```
 
+结果：[link1](https://pbs.twimg.com/media/Fz9ZCsaaAAAShE3.jpg?format=jpg&name=4096x4096) / [link2](https://t.me/TestFlightCN/18853?comment=4477499)
+
+![result](https://i1.wp.com/pbs.twimg.com/media/Fz9ZCsaaAAAShE3.jpg?format=jpg&name=4096x4096)
+
+
+- 我使用的
+
+> Rule 18: Fm Ir V
+
+不搞了不搞了，归档（
