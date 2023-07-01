@@ -86,9 +86,9 @@ favicon: https://qsim.top/favicon.ico
 
 # Avatar (頭像)
 avatar:
-  img: https://i1.wp.com/imgur.qsim.top/1WPQNgv_d.webp?maxwidth=1520&fidelity=grand
+  img: https://qsim.top/img/bear.webp
   effect: false
-
+# https://i1.wp.com/imgur.qsim.top/1WPQNgv_d.webp?maxwidth=1520&fidelity=grand
 # Disable all banner imagefalse 禁用所有橫幅圖像假
 disable_top_img: false
 
