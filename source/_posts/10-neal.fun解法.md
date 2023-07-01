@@ -7,7 +7,7 @@ tags:
 - 娱乐
 ---
 
-# neal.fun解法
+# neal.fun password解法
 
 > 这是一个来自 [NEAL.FUN](https://neal.fun/password-game/) 的小游戏（算是吧
 
