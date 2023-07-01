@@ -79,9 +79,4 @@ tags:
 
 ![result](https://i1.wp.com/pbs.twimg.com/media/Fz9ZCsaaAAAShE3.jpg?format=jpg&name=4096x4096)
 
-
-- 我使用的
-
-> Rule 18: Fm Ir V
-
 不搞了不搞了，归档（
