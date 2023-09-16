@@ -81,7 +81,7 @@ tags:
 
 结果：[link1](https://pbs.twimg.com/media/Fz9ZCsaaAAAShE3.jpg?format=jpg&name=4096x4096) / [link2](https://t.me/TestFlightCN/18853?comment=4477499)
 
-![result](https://i1.wp.com/imgur.qsim.top/M3FbovE.jpeg)
+![result](https://i1.wp.com/ik.imagekit.io/acf/img/M3FbovE.jpeg)
 
 不搞了不搞了，归档（
 
