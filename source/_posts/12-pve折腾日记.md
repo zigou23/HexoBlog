@@ -249,7 +249,7 @@ docker start 885c7e250065 #启动镜像
 docker update --restart=always 885c7e250065 # 设置镜像自启动
 ```
 
-#### 安装docker可视化面板
+### 安装docker可视化面板
 
 主要是方便修改管理
 
@@ -284,13 +284,31 @@ curl -L --output cloudflared.deb https://github.com/cloudflare/cloudflared/relea
 2. 安装/登录
 
 ```shell
-sudo dpkg -i cloudflared.deb
+dpkg -i cloudflared.deb #通过pwd自己看包名，输一点之后按tab补全就行
 ```
+#### Docker安装
+
+进入cf面板，点开自己`账号-->Zero Trust-->Access-->Tunnels-->Create a tunnel`
+
+啥的自己写，进入后会告诉你指令
+
+```shell
+docker pull cloudflare/cloudflared
+#然后执行面板上的指令
+docker run cloudflare/cloudflared:latest tunnel --no-autoupdate run --token <token> #token很长
+```
+
 ### 2. 使用教程
 
 接下来你可以使用**网页仪表板**（小白建议）或者纯**CLI命令版**
 
 1. 仪表板：使用网页token(代码网页上有)，但只能在网页操作，使用后建议在网页操作，也方便远程控制，可以参考[官方页面](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/get-started/create-remote-tunnel/)
+
+   安装token报错可能是你已经装过, 需要重新配置
+
+   ```shell
+   sudo cloudflared service uninstall
+   ```
 
 2. CLI版：登录 会给一个cf登录地址。或者参考[官方页面](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/get-started/create-local-tunnel/)
 
@@ -298,8 +316,14 @@ sudo dpkg -i cloudflared.deb
 cloudflared tunnel login
 ```
 
+设置开机启动
 
-`systemctl enable cloudflared`加入开机启动，`systemctl start cloudflared`启动服务。
+```shell
+cloudflared service install
+systemctl start cloudflared
+systemctl enable cloudflared
+systemctl status cloudflared
+```
 
 > 使用`cloudflared tunnel login`之后你可以都在cf tunnel网页上编辑
 >
@@ -320,37 +344,25 @@ cloudflared tunnel login
 >
 > 其余你可以到[官方文档](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/configure-tunnels/)查看（上面是备份
 
-#### 本地卸载
+### 3. 本地卸载
 
 1. apt 均需要管理(`sudo`)权限。直接删除`~/.cloudflared`文件夹就会删除登录信息
 
-   ```bash
-   systemctl list-units | grep cloudflared #寻找是否在后台运行
-   systemctl stop cloudflared #停止服务
-   # apt remove cloudflared #仅卸载，不删除配置
-   apt-get purge cloudflared #连同相关的配置文件一起删除
-   #如果使用remove，你可以自己删除配置文件，也可以使用上面指令删除
-   rm -r /etc/cloudflared/
-   rm -r /var/lib/cloudflared/
-   #卸载完成后，你可以使用以下命令来清理不再使用的依赖项
-   apt-get autoremove
-   ```
-   
-   ```shell
-   systemctl stop cloudflared-update.timer #停止cloudflared-update
-   systemctl disable cloudflared-update.timer #禁用cloudflared-update
-   ```
-
-#### Docker安装
-
-进入cf面板，点开自己`账号-->Zero Trust-->Access-->Tunnels-->Create a tunnel`
-
-啥的自己写，进入后会告诉你指令
+```bash
+systemctl list-units | grep cloudflared #寻找是否在后台运行
+systemctl stop cloudflared #停止服务
+# apt remove cloudflared #仅卸载，不删除配置
+apt-get purge cloudflared #连同相关的配置文件一起删除
+#如果使用remove，你可以自己删除配置文件，也可以使用上面指令删除
+rm -r /etc/cloudflared/
+rm -r /var/lib/cloudflared/
+#卸载完成后，你可以使用以下命令来清理不再使用的依赖项
+apt-get autoremove
+```
 
 ```shell
-docker pull cloudflare/cloudflared
-#然后执行面板上的指令
-docker run cloudflare/cloudflared:latest tunnel --no-autoupdate run --token <token> #token很长
+systemctl stop cloudflared-update.timer #停止cloudflared-update
+systemctl disable cloudflared-update.timer #禁用cloudflared-update
 ```
 
 
