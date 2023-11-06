@@ -17,6 +17,8 @@ tags:
 
 ## 1. PVE安装/问题解决
 
+### 安装
+
 > 安装前建议先格式化为`ext4`或其他格式而非`NTFS`格式，以免安装中无法读盘。
 
 >你可以选用以下软件**格式化**(windows):
@@ -215,7 +217,7 @@ apt upgrade  # 升级已安装的软件包(建议)
 
 ~~我也不知道怎么安装成功的，debian源使用的官方源。就是从Docker[官方](https://docs.docker.com/engine/install/debian/)教程来一行一行试，不行(最后`sudo apt-get update`报错)。然后删除了`/etc/apt/sources.list.d/docker.list` , 之后使用一键安装指令就可行了~~(网络环境要*好像?建议官方源)
 
-安装
+### 安装
 
 ```shell
 # 稳定
@@ -319,13 +321,12 @@ cloudflared tunnel login
 设置开机启动
 
 ```shell
-cloudflared service install
 systemctl start cloudflared
 systemctl enable cloudflared
 systemctl status cloudflared
 ```
 
-> 使用`cloudflared tunnel login`之后你可以都在cf tunnel网页上编辑
+> 使用`cloudflared tunnel login`之后
 >
 > 1. 临时访问（不登陆可以临时使用，但重新部署会换域名，会有一个类似`https://wonderful-hotmail-ah-cassette.trycloudflare.com`域名（靠前的位置）
 >
@@ -364,10 +365,5 @@ apt-get autoremove
 systemctl stop cloudflared-update.timer #停止cloudflared-update
 systemctl disable cloudflared-update.timer #禁用cloudflared-update
 ```
-
-
-
-
-
 
 
