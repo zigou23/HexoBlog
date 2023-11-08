@@ -227,6 +227,10 @@ sudo sh get-docker.sh
 # 测试通道
 curl -fsSL https://test.docker.com -o test-docker.sh
 sudo sh test-docker.sh
+
+#阿里云
+curl -fsSL get.docker.com -o get-docker.sh
+sudo sh get-docker.sh --mirror Aliyun
 ```
 安装完成后测试是否安装完成
 
@@ -321,6 +325,7 @@ cloudflared tunnel login
 设置开机启动
 
 ```shell
+cloudflared service install
 systemctl start cloudflared
 systemctl enable cloudflared
 systemctl status cloudflared
@@ -365,5 +370,4 @@ apt-get autoremove
 systemctl stop cloudflared-update.timer #停止cloudflared-update
 systemctl disable cloudflared-update.timer #禁用cloudflared-update
 ```
-
 
