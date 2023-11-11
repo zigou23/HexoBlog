@@ -83,7 +83,7 @@ iface **wlp2s0** inet manual
 
 打 `**` 处修改为 `wlp1s0` 即可。个人大同小异，找到修改即可
 
-
+> 更改地址后，如果无法上网，一般出现在dns的问题。去 `后台(*内网地址*:8006)-pve-系统-dns` 更改现有的地址或者公用dns即可
 
 ## 2. 创建LXC容器
 
@@ -272,6 +272,15 @@ docker run -d --restart=always --name="portainer" -p 9000:9000 -v /var/run/docke
 ## 4. CF Tunnel安装使用教程
 
 > 需要绑定银行账户，缺点：必须绕美或者购买 Enterprise($3,000起步/月)
+
+查看架构
+
+```shell
+dpkg --print-architecture #amd64
+uname -m #x86_64
+```
+
+64位:amd64 32位:i386 arm64:arm64 arm32:arm
 
 ### 1. 安装
 
