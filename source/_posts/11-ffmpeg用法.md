@@ -24,3 +24,12 @@ ffmpeg -ss 10 -t 15 -i test.mp4 -c:v libx264 -c:a aac -strict experimental -b:a 
 时间格式HOURS:MM:SS.MICROSECONDS
 ```
 
+
+
+2. 手机ffmpeg
+
+```makefile
+# 裁剪到QQ语音(群1M以内)
+-ss 00:00:00 -t 00:02:00 -vn -c:a libmp3lame -ab 64k -ar 44100 -f mp3
+```
+
